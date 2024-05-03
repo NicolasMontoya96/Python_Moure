@@ -29,5 +29,31 @@ print(name)
 my_other_list.append('MoureDev')
 print(my_other_list)
 
-my_other_list.insert(1, "Verde")
+my_other_list.insert(1, "Rojo")
 print(my_other_list)
+
+my_other_list[1] = "Verde"
+print(my_other_list)
+
+my_other_list.remove("Verde")
+print(my_other_list)
+
+
+my_list.remove(30)
+print(my_list)
+
+
+print(my_list.pop())
+print(my_list)
+
+print(my_list.pop(2))
+print(my_list)
+
+my_pop_element = my_list.pop(2)
+print(my_pop_element)
+
+del my_list[0]
+print(my_list)
+
+my_list.clear()
+print(my_list)
