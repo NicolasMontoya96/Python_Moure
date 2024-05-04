@@ -23,3 +23,29 @@ else:
 
 
 print('La ejecución continúa')
+
+
+my_string = ""
+
+if not my_string: 
+    print('My cadena de texto es vacía.')
+
+if my_string == "Mi cadena de textoooooooo": 
+    print('Estas cadena de texto conciden')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
